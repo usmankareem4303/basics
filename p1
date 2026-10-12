@@ -1,1 +1,31 @@
+echo "Hello, World!"
+
+ls(list)
+
+cd (change directory)
+
+pwd(print working directory)
+
+mkdir(make directory)
+
+mdir / (makes directory hierarchy)
+
+mkdir -p (makes parent directories as needed)
+
+rm -rf (removes files and directories recursively and forcefully)
+
+cp -r (copies files and directories recursively)
+
+touch (creates an empty file or updates the timestamp of an existing file)
+
+cat (concatenates and displays the content of files)
+cat > (redirects output to a file, overwriting it)
+
+
+
+
+
+
+
+
 
