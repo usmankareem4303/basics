@@ -20,6 +20,24 @@ touch (creates an empty file or updates the timestamp of an existing file)
 
 cat (concatenates and displays the content of files)
 cat > (redirects output to a file, overwriting it)
+cp newfile.txt copyfile.txt (copies newfile.txt to copyfile.txt)
+mv newfile.txt samefile.txt (renames newfile.txt to samefile.txt)
+rm file.txt (removes file.txt)
+
+whoami
+id
+su (switch user)
+ssh (username@hostname) (connects to a remote host via SSH)
+ls /root
+sudo (execute a command as another user, typically root)
+sudo ls /root (lists the contents of the /root directory with superuser privileges)
+curl https://example.com (fetches the content of the specified URL)
+wget https://example.com/file.txt (downloads a file from the specified URL)
+ls /etc (lists the contents of the /etc directory)
+ls /etc/release (displays the contents of the /etc/release file, which contains information about the operating system release)
+cat/etc/release (displays the contents of the /etc/release file)
+
+
 
 
 
