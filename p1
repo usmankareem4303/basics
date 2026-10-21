@@ -46,6 +46,14 @@ base/7/x86_64
 extras/7/x86_64
 mongodb-org-4.2/7
 mysql-connectors-community/x86_64
+mysql-tools-community/x86_64
+mysql80-community/x86_64
+updates/7/x86_64
+
+repo name
+Cent0s-7 - base
+Cent0s-7 - extras
+
 
 
 
