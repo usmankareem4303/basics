@@ -39,6 +39,15 @@ cat/etc/release (displays the contents of the /etc/release file)
 rpm -i telnet.rpm (install package)
 rpm -e telnet.rpm (uninstall package)
 rpm -q telnet.rpm (query package)
+yum install ansible (install package)
+yum repolist
+repo id
+base/7/x86_64
+extras/7/x86_64
+mongodb-org-4.2/7
+mysql-connectors-community/x86_64
+
+
 
 
 
