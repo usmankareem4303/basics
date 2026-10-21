@@ -36,9 +36,7 @@ wget https://example.com/file.txt (downloads a file from the specified URL)
 ls /etc (lists the contents of the /etc directory)
 ls /etc/release (displays the contents of the /etc/release file, which contains information about the operating system release)
 cat/etc/release (displays the contents of the /etc/release file)
-rpm -i telnet.rpm (install package)
-rpm -e telnet.rpm (uninstall package)
-rpm -q telnet.rpm (query package)
+
 
 
 
