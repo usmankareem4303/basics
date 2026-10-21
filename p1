@@ -36,6 +36,25 @@ wget https://example.com/file.txt (downloads a file from the specified URL)
 ls /etc (lists the contents of the /etc directory)
 ls /etc/release (displays the contents of the /etc/release file, which contains information about the operating system release)
 cat/etc/release (displays the contents of the /etc/release file)
+rpm -i telnet.rpm (install package)
+rpm -e telnet.rpm (uninstall package)
+rpm -q telnet.rpm (query package)
+yum install ansible (install package)
+yum repolist
+repo id
+base/7/x86_64
+extras/7/x86_64
+mongodb-org-4.2/7
+mysql-connectors-community/x86_64
+mysql-tools-community/x86_64
+mysql80-community/x86_64
+updates/7/x86_64
+
+repo name
+Cent0s-7 - base
+Cent0s-7 - extras
+
+
 
 
 
