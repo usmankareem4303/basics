@@ -54,6 +54,11 @@ repo name
 Cent0s-7 - base
 Cent0s-7 - extras
 
+ls /etc/yum.repos.d/
+cat /etc/yum.repos.d/Cent0s-basw.repo
+
+
+
 
 
 
