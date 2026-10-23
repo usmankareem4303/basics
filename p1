@@ -56,6 +56,19 @@ Cent0s-7 - extras
 
 ls /etc/yum.repos.d/
 cat /etc/yum.repos.d/Cent0s-basw.repo
+yum list ansible
+yum remove ansible
+yum  --showduplicates list ansible
+yum install ansible-2.4.2.0
+
+services
+service httpd start (start httpd service)
+systemct1 start httpd
+systemct1 stop httpd (stop httpd service)
+systemct1 status httpd (check httpd service status)
+systemct1 enable httpd (configure httpd to start at startup)
+systemct1 disable httpd(configure httpd to not startup)
+
 
 
 
