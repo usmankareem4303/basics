@@ -75,6 +75,21 @@ systemct1 stop my_app
 /etc/systemd/system
 my_app.service [service]
 execstart=/usr/bin/python3 /opt/code/my_app.py
+execstartpre=/opt/code/configure_db.sh
+execstartpost=/opt/code/email_status.sh
+restart=always
+[install]
+wantedby=multi-user.target
+[unit]
+Description= My python web application
+systemct1 daemon-reload
+systemct1 start my_app
+systemct1 status my_app
+systemct1 stop my_app
+
+VIeditor
+vi index.html
+
 
 
 
