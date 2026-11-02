@@ -68,6 +68,13 @@ systemct1 stop httpd (stop httpd service)
 systemct1 status httpd (check httpd service status)
 systemct1 enable httpd (configure httpd to start at startup)
 systemct1 disable httpd(configure httpd to not startup)
+/usr/bin/python3 /opt/code/my_app.py
+curl http://localhost:5000
+systemct1 start my_app
+systemct1 stop my_app
+/etc/systemd/system
+my_app.service [service]
+execstart=/usr/bin/python3 /opt/code/my_app.py
 
 
 
