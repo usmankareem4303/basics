@@ -89,6 +89,16 @@ systemct1 stop my_app
 
 VIeditor
 vi index.html
+command mode=
+delete(x or dd)
+copypaste(yy or p)
+scroll up/down (crtl+u or crtl+d)
+: command
+save (:w or :w filename)
+quit(:q)
+save+quit(:wq)
+find(:/of n)
+
 
 
 
